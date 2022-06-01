@@ -1,5 +1,13 @@
 import React from 'react';
 
+/**
+ * 
+ * Usage
+ * ```
+* 
+    <Star />
+```
+ */
 const Star = () => {
   return (
     <div className='w-8 h-8'>

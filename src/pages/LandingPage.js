@@ -2,11 +2,20 @@ import React from 'react';
 import data from '../assets/list';
 import Card from '../components/Card';
 
+/**
+ * 
+ * Usage
+ * ```
+* 
+    <LandingPage />
+```
+ */
+
 const LandingPage = () => {
   return (
     <div className='bg-white p-10'>
       <div className='mb-10'> items 1-12 of 23</div>
-      <div className='flex flex-wrap'>
+      <div className='flex flex-wrap '>
         {data.map((cardData) => {
           return <Card key={cardData.id} data={cardData} />;
         })}

@@ -87,14 +87,14 @@ const data = [
     image_url: 'https://loremflickr.com/320/240',
     created_at: '2020-02-08 17:01:15',
   },
-  {
-    id: 12,
-    title: '5 Ways ACOMMERCE Will Help You Get More Business',
-    vote: 2,
-    price: 10,
-    image_url: 'https://loremflickr.com/320/240',
-    created_at: '2020-01-18 22:01:15',
-  },
+  // {
+  //   id: 12,
+  //   title: '5 Ways ACOMMERCE Will Help You Get More Business',
+  //   vote: 2,
+  //   price: 10,
+  //   image_url: 'https://loremflickr.com/320/240',
+  //   created_at: '2020-01-18 22:01:15',
+  // },
 ];
 
 export default data;

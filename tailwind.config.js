@@ -5,11 +5,10 @@ module.exports = {
       margin: {},
       padding: {},
       height: {
-        card: '500px',
+        star: '32px',
         pic: '240px',
       },
       width: {
-        card: '400px',
         pic: '320px',
       },
     },
